@@ -1,0 +1,295 @@
+.custom-box {
+  /* height: 263px; */
+  display: flex;
+  justify-content: space-evenly;
+  justify-content: center;
+  background-color: #ffffff;
+  border-radius: 39px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  padding: 30px 5px 30px 20px;
+}
+.text{
+  font-size: 23px;
+  font-weight: 700;
+  margin-bottom: 25px;
+}
+.container{
+  /* max-width: 1100px; */
+  margin: 0 auto;
+}
+.bg {
+  width: 150px;
+  height: 55px;
+  background-color: #FE5960;
+  margin-left: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  border: 1px solid black;
+  margin-bottom: 25px;
+}
+.footer-contact {
+  margin-top: 20px;
+}
+
+
+textarea {
+  resize: none;
+}
+
+
+.svg-inline--bi {
+vertical-align: -0.200em;
+}
+
+.rounded-social-buttons .social-button {
+display: inline-block;
+position: relative;
+cursor: pointer;
+/* width: 3.125rem;
+height: 3.125rem; */
+width: 2.225rem;
+height: 2.225rem;
+border: 0.125rem solid transparent;
+padding: 0;
+text-decoration: none;
+text-align: center;
+color: #fefefe;
+/* font-size: 1.5625rem; */
+font-weight: normal;
+line-height: 2em;
+border-radius: 1.6875rem;
+transition: all 0.5s ease;
+margin-right: 0.25rem;
+margin-bottom: 0.25rem;
+}
+
+.rounded-social-buttons .social-button:hover, .rounded-social-buttons .social-button:focus {
+-webkit-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+        transform: rotate(360deg);
+}
+
+.rounded-social-buttons .bi-twitter, .bi-facebook-f, .bi-linkedin, .bi-youtube, .bi-instagram {
+font-size:smaller;
+}
+
+.rounded-social-buttons .social-button.facebook {
+background: #FE5960;
+}
+
+.rounded-social-buttons .social-button.facebook:hover, .rounded-social-buttons .social-button.facebook:focus {
+color: #3b5998;
+background: #fefefe;
+border-color: #3b5998;
+}
+
+.rounded-social-buttons .social-button.twitter {
+background: #FE5960;
+}
+
+.rounded-social-buttons .social-button.twitter:hover, .rounded-social-buttons .social-button.twitter:focus {
+color: #55acee;
+background: #fefefe;
+border-color: #55acee;
+}
+
+.rounded-social-buttons .social-button.linkedin {
+background: #FE5960;
+}
+
+.rounded-social-buttons .social-button.linkedin:hover, .rounded-social-buttons .social-button.linkedin:focus {
+color: #007bb5;
+background: #fefefe;
+border-color: #007bb5;
+}
+
+.rounded-social-buttons .social-button.youtube {
+background: #FE5960;
+}
+
+.rounded-social-buttons .social-button.youtube:hover, .rounded-social-buttons .social-button.youtube:focus {
+color: #bb0000;
+background: #fefefe;
+border-color: #bb0000;
+}
+
+.rounded-social-buttons .social-button.instagram {
+background: #FE5960;
+}
+
+.rounded-social-buttons .social-button.instagram:hover, .rounded-social-buttons .social-button.instagram:focus {
+color: #125688;
+background: #fefefe;
+border-color: #125688;
+}
+
+ul {
+  list-style: none; /* Remove bullet points */
+  padding: 0; /* Remove default padding */
+}
+
+ul li {
+  display: block; /* Display list items in a block (one under the other) */
+  margin-bottom: 10px; /* Add some spacing between items */
+}
+
+ul li a {
+  text-decoration: none; /* Remove underline from links */
+  color: black; /* Set the text color to black */
+}
+/* .yellow{
+  margin-right: 5%;
+}
+.Popular{
+  margin-left: 7%;
+} */
+/* .col-md-4{
+  inline-size: fit-content
+} */
+.textP{
+  font-weight: 600;
+  object-fit: contain;
+}
+.logo-text{
+  font-size: 25px;
+}
+.imgStyle{
+  width: 12%;
+  max-height: 40%;
+  aspect-ratio: 3/2;
+  object-fit: contain;
+}
+.last-footer{
+  margin-top: 35px;
+}
+.box1{
+display: flex;
+justify-content: center;
+background-color: #42263D;
+align-items: center;
+padding: 10px 5px 10px 20px;
+border-radius: 20px;
+box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.form-group {
+display: flex;
+align-items: center;
+justify-content: space-evenly;
+}
+
+.form-group label {
+margin-right: 10px;
+width: 274px;
+}
+
+input.form-control {
+width: 209px;
+height: 40px;
+font-size: 14px;
+border-radius: 50px;
+margin-top: 1px;
+}
+
+.btn-f{
+background-color: #FE5960;
+width: 187px;
+font-size: 14px;
+height: 40px;
+margin-bottom:15px
+}
+.textB{
+font-size: 20px;
+color: white;
+}
+.textBi{
+font-size: 20px;
+color: white;
+}
+.btn-rounded {
+border-radius: 50px;
+/* margin-right: 46px; */
+}
+
+.my-auto{
+display: flex;
+justify-content: center;
+color: white;
+font-size: 18px;
+font-weight: 300;
+}
+.row.no-gutters [class*="col-"] {
+padding-right: 0;
+padding-left: 0;
+}
+
+.img1, .img2, .img3 {
+display: block;
+}
+
+.titre{
+text-align: center;
+position: relative;
+top: 298px
+}
+
+
+section.main2.backimgg > img {
+/* background: rgb(197, 182, 182); */
+height: 100%;
+width: 100%!important;
+}
+
+.para{
+font-size: 26px;
+font-weight:500;
+color: #42263D;
+}
+
+/*  */
+
+.profil {
+display: flex;
+align-items: center;
+position: relative;
+top: 250px;
+    right: 9px;
+}
+section.backimgg {
+position: relative;
+}
+.profil1 {
+position: relative;
+/* top: 57px;
+left: 204PX; */
+top: 297px;
+  left: 155PX;
+}
+.profil2 {
+position: relative;
+left: 37px;
+text-align: center;
+}
+.profil3 {
+position: relative;
+top: -118px;
+left: -5%;
+}
+.contenue-profile {
+position: absolute;
+top: 175px;
+bottom: 0;
+display: table;
+z-index: 999999999999999999;
+height: 100%;
+}
+.imgSection2 {
+position: absolute;
+bottom: 106px;
+}
+
+img.multiimg.img-fluid {
+  margin-bottom: -41px;
+  overflow: hidden;
+}

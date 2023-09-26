@@ -1,0 +1,538 @@
+@media (max-width: 767px) {
+  .custom-box {
+    height: auto; /* Adjust height for mobile */
+  }
+  /* ... add more responsive styles ... */
+}
+/* Example animation */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* Apply animation to elements */
+.navbar {
+  animation: fadeIn 1s ease-out;
+}
+
+/* Example animation */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Apply animation to buttons */
+.btn-animated {
+  animation: fadeIn 1s ease-out;
+}
+
+.navbar {
+  padding: 1rem;
+  /* background-color: white; */
+}
+
+.container-fluid {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.bg {
+  width: 15%;
+  height: 55px;
+  background-color: #FE5960;
+  margin-left: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  border: 1px solid black;
+}
+
+/* Example animation */
+@keyframes buttonClick {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(0.9);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+/* Apply animation to buttons */
+.btn-click-animation {
+  animation: buttonClick 0.3s ease;
+}
+.btn-w{
+  background-color: #42263D;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+.btn-w:focus,
+.btn-w:active {
+  background-color: #42263D;
+  box-shadow: none; /* Remove the default box-shadow */
+  outline: none; /* Remove the outline */
+}
+
+
+.btn-f{
+  background-color: #FE5960;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+.btn-f:focus,
+.btn-f:active {
+  background-color: #FE5960;
+  box-shadow: none; /* Remove the default box-shadow */
+  outline: none; /* Remove the outline */
+}
+.btn-t{
+  background-color: #FE5960;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-left: 40px;
+  font-weight: bold;
+}
+.btn-t:focus,
+.btn-t:active {
+  background-color: #FE5960;
+  box-shadow: none; /* Remove the default box-shadow */
+  outline: none; /* Remove the outline */
+}
+
+.logo-text {
+  font-size: 30px;
+}
+
+.text{
+  font-size: 20px;
+  color: white;
+
+}
+.btn-rounded {
+  border-radius: 50px;
+}
+
+.custom-box {
+  width: auto;
+  height: 400px;
+  background-color: #42263D;
+  border-radius: 39px;
+  padding:50px;
+  overflow: visible;
+  margin-bottom: 70px;
+  position: relative;
+}
+
+.custom-box-2 {
+  width: auto;
+  height: 400px;
+  background-color: #FFFFFF;
+  border-radius: 39px;
+  padding:50px;
+  align-items: center; /* Align the content vertically */
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 6px 20px 15px;
+}
+
+.bg-image {
+  flex: 0 0 auto; /* Prevent the image from growing and shrinking */
+  margin-right: 20px; /* Add some space between the image and the text */
+
+}
+
+.bg-image img {
+  max-width: 100%; /* Ensure the image does not exceed its container */
+ border-radius: 39px 0 0 39px;
+    margin-left: -51px ;
+}
+
+.d-flex.mt-5 {
+  font-size: 15px;
+}
+.img-2 {
+  margin-left: 10px;
+  height: 402px;
+    margin-top: -2px;
+  overflow: hidden;
+}
+
+.img-1 {
+  position: absolute;
+  height: 419px;
+  bottom: 0px;
+  right: 119px;
+  z-index: 0;
+}
+.img{
+  position: absolute;
+  height: 224px;
+    top: 256px;
+    right: 315px;
+  z-index: 5; /* Set a higher value to place it on top of other elements */
+}
+.text-white {
+  font-size: 40px;
+  padding-left: 40px;
+  margin-bottom: 0;
+  /* padding-bottom: 40px; */
+}
+
+.text-underline{
+  color: white;
+  font-size:25px ;
+}
+.text-b {
+  font-size: 40px;
+  padding-left: 40px;
+  /* padding-bottom: 40px; */
+  color: white;
+  font-weight: bold;
+}
+
+/* .d-flex {
+  margin-bottom: 90px;
+} */
+
+.t {
+  color: white;
+  padding-left: 30px;
+}
+
+.custom-box .d-flex {
+  margin-top: 50px; /* Add your custom margin-top value here */
+}
+
+
+.box-2-text{
+  font-size: 30px;
+  top: 20px;
+  margin-left: -6px;
+  color: #74606D;
+}
+.box-2{
+margin-bottom: 40px;
+}
+.box-3{
+  margin-left: -6px;
+  font-size: 20px;
+}
+
+p.box-3-text {
+  margin-bottom: 5px;
+  font-family: sans-serif;
+  color: #74606D;
+}
+
+
+
+.custom-box-4 {
+  width: 113%;
+  height: 212px;
+  background-color: #FFFFFF;
+  border-radius: 28px;
+  padding: 9%; /* Adjust padding to create space inside the custom-box-4 */
+  margin-bottom: 25px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 6px 20px 15px;
+  margin-top: 6%;
+  margin-left:-38px;
+}
+
+.custom-box-5 {
+  width: 124%;
+  height: 359px;
+  background-color: #FFFFFF;
+  border-radius: 28px;
+  padding: 9%;
+  margin-bottom: 25px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 6px 20px 15px;
+  margin-top: 10%;
+   position: relative;
+}
+
+.img-3 {
+  position: absolute;
+  right: 13%;
+  height: 159px;
+  bottom: 260px;
+  transform: translateY(-50%);
+  z-index: 1;
+}
+
+
+
+
+.text-box-5{
+  font-size: 28px;
+  font-weight: bold;
+  margin-left:19px;
+  margin-top: 10px;
+}
+
+span.me-2.bg.text-center {
+  width: 155px;
+  font-size: 27px;
+}
+
+
+
+
+/* Add styles to the triangle-background container */
+.triangle-background {
+  position: relative;
+  background-color: #F6F2E7;
+
+}
+
+/* Add the pseudo-element triangle */
+.triangle-background::before {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  border-left: 675.5px solid #F6F2E7;
+  border-right: 675.5px solid #F6F2E7;
+  border-top: 350px solid transparent;
+  overflow: hidden;
+  z-index: 0;
+}
+.col{
+  z-index: 2;
+}
+
+.box-5 {
+  margin-left: 15px;
+  font-size: 16px;
+  font-weight: 450;
+}
+
+a.mx-4.text-danger.text-underline {
+  font-size: 20px;
+}
+
+
+.box-4.mb-5 {
+  margin-left: 17px;
+}
+/* p.box-4-text {
+  margin-bottom: 7px;
+} */
+.box-4 {
+  margin-bottom: 7px;
+}
+.text-box-6{
+  font-size: 28px;
+  font-weight: bold;
+  margin-left: 19px;
+  margin-top: -18px;
+  color:#74606D;
+}
+
+p.box-6-text {
+  margin-left: 18px;
+  margin-bottom: 3px;
+  color: #74606D;
+}
+.tz{
+  background-color: white;
+  width: 61px !important;
+  font-size: 27px;
+  height: 55px;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 6px 20px 15px;
+  width: 15%;
+  height: 55px;
+  margin-left: -63px;
+    margin-top: -23px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: black;
+position: absolute;
+}
+
+h1.box-5-text {
+  color: #74606D;
+  font-size: 35px;
+  font-weight: 400;
+}
+
+.btn-g{
+  background-color: #FE5960;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin-left: 14px;
+}
+.btn-g:focus,
+.btn-g:active {
+  background-color: #FE5960;
+  box-shadow: none; /* Remove the default box-shadow */
+  outline: none; /* Remove the outline */
+}
+.box-7
+{
+  /* width: 100%; */
+  height: 133px;
+  background-color: #FFFFFF;
+  border-radius: 12px;
+  padding: 5%;
+  margin-bottom: 23px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 6px 20px 15px;
+  /* margin-top: 10%; */
+  z-index: 9;
+  position: absolute;
+  margin-top: -75px;
+  width: 85%;
+}
+.box-8
+{
+  background-color: #FFFFFF;
+  border-radius: 12px;
+  margin-top: 140px;
+}
+
+img.img-box-7 {
+  width: 20%;
+  aspect-ratio: 6/2;
+  object-fit: contain;
+  margin-top: -30px;
+}
+
+.box-8-img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 15%;
+  height: 15%;
+}
+.box-9{
+  margin-top: 5%;
+}
+.text-box-9{
+color: #5a4051;
+font-size: 22px;
+}
+.text-2-box-9{
+  color: #5a4051;
+  font-size: 40px;
+}
+/* .btn-box-9{
+  background-color: #FE5960;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 5px;
+  padding-bottom: 10px;
+  margin-top: 20px;
+} */
+   /* Add your custom styles here */
+   .btn-box-9 {
+    background-color: #FE5960;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 5px;
+    padding-bottom: 10px;
+    margin-top: 20px;
+  }
+
+  /* Override Bootstrap's focus and active state styles */
+  .btn-box-9:focus,
+  .btn-box-9:active {
+    background-color: #FE5960;
+    box-shadow: none; /* Remove the default box-shadow */
+    outline: none; /* Remove the outline */
+  }
+  .custom-box-10 {
+    /* width: 81%; */
+    height: 400px;
+    background-color: #FFFFFF;
+    border-radius: 22px;
+    padding:24px;
+    align-items: center; /* Align the content vertically */
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 6px 20px 15px;
+    position: absolute;
+    z-index: 99999999;
+    /* margin-top: -22%; */
+  }
+
+  .bg-image-box-10 {
+    flex: 0 0 auto; /* Prevent the image from growing and shrinking */
+    margin-right: 20px; /* Add some space between the image and the text */
+
+  }
+
+  .bg-image-box-10 img {
+    max-width: 100%; /* Ensure the image does not exceed its container */
+   border-radius: 22px 0 0 22px;
+      margin-left: -24px ;
+      margin-right: 51px;
+  }
+
+  .box-12-text{
+    color: #5a4051;
+    font-size: 19px;
+    font-weight: 500;
+  }
+  .box-text-12{
+    color: #5a4051;
+  font-size: 30px;
+  margin-bottom: 30px;
+  }
+
+
+
+  .custom-box-13 {
+    /* width: 99%; */
+    height: 400px;
+    background-color: #FFFFFF;
+    border-radius: 22px;
+    padding: 40px;
+    align-items: center; /* Align the content vertically */
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 6px 20px 15px;
+    /* position: absolute; */
+    /* margin-bottom: 350px; */
+}
+
+.bg-image-box-13 {
+    flex: 0 0 auto; /* Prevent the image from growing and shrinking */
+    /* margin-left: 20px;  */
+}
+
+.bg-image-box-13 img {
+    max-width: 100%;
+    border-radius: 0 22px 22px 0;
+    margin-left: 84.5px;
+    /* margin-right: -24px; */
+}
+
+.box-13-text {
+    color: #5a4051;
+    font-size: 19px;
+    font-weight: 500;
+}
+
+.box-text-13 {
+    color: #5a4051;
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
